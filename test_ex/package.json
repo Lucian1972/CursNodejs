@@ -1,21 +1,15 @@
 {
-  "name": "cursnodejs",
+  "name": "test_ex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start":"node ./index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lucian1972/CursNodejs.git"
-  },
+  
   "author": "pop",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lucian1972/CursNodejs/issues"
-  },
-  "homepage": "https://github.com/Lucian1972/CursNodejs#readme",
   "dependencies": {
     "chai": "^4.1.0"
   }
